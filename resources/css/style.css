@@ -54,6 +54,7 @@ a {
 
 div {
   border: 1px solid black;
+  display: block;
 }
 
 .column {
@@ -79,4 +80,18 @@ div {
   width: 100%;
   margin: 0 auto 78px auto;
   padding-top: 116px;
+}
+
+.image-content {
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+}
+
+.lead-story.image-content {
+  background-image: url(./resources/images/img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
 }
